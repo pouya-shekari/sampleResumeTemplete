@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif , Arial;
+    color: white;
+    background-color: black;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 90%;
+    display: flex;
+    padding: 2rem 0;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2{
+    font-size: 1.8rem;
+    color: white;
+    margin:0 10rem 0 0;
+}
+
+
+.bars{
+    position: fixed;
+    top: 3.5rem;
+    right: 5%;
+}
+
+.bars>svg{
+    width: 1.8rem;
+}
+
+main{
+    display: flex;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: flex-start;
+}
+
+.information{
+    width: 40rem;
+    margin-right: auto;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.information:first-child{
+    margin-top: 2rem;
+}
+
+
+.name{
+    color: lightcoral;
+}
+
+.hire{
+    background-color: lightcoral;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border-radius: 1rem;
+    display: flex;
+    width: 11rem;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.hire>svg{
+    background-color: #f5abab;
+    color: white;
+    width: 2rem;
+    margin-left: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 9rem ;
+}
+
+.picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 30rem;
+    margin-left: -20rem;
+    margin-top: 5rem;
+}
+
+.skills{
+    justify-self: flex-end;
+    margin-left: auto;
+    margin-top: 3rem;
+}
+
+.skills>h2{
+    margin: 0;
+}
+
+.chat{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.first-circle{
+    width:5rem;
+    height:5rem;
+    border-radius:50%;
+    background-color:transparent;
+    border:0.25rem solid lightblue;
+    position: absolute;
+    top: -5rem;
+}
+
+.second-circle{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.25rem solid lightcoral;
+    position: absolute;
+    top: -5.5rem;
+    left: 3rem;
+}
+
+.third-circle{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: lightblue;
+    border: 0.25rem solid lightblue;
+    position: absolute;
+    left: 10rem;
+    top: 1rem;
+}
+
+@media (max-width: 790px) {
+    .skills{
+        justify-self: start;
+        margin-left: 0;
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 572px) {
+    .picture{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .social-icons{
+        margin-top: 5rem;
+    }
+}
