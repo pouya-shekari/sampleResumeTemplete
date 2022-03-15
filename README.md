@@ -7,6 +7,6 @@ login page:
 
 ![alt text](https://s6.uupload.ir/files/login_vks9.png)
 
-<br/>
+
 dashboard page:
 ![alt text](https://s6.uupload.ir/files/dashboard_kqmn.png)
