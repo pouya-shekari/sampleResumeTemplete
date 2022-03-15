@@ -1,8 +1,11 @@
 # sample resume templete
-just run the project on a localhost
+first install packeges with write #npm start# in terminal.
+then run the project with with write #npm start# in terminal.
 
-## Demo
+## Preview
+login page:
 
+![alt text](https://s6.uupload.ir/files/login_vks9.png)
 
-
-[Resume_Templete](http://pouya-shekari.gigfa.com/sample-resume-templete)
+dashboard page:
+![alt text](https://s6.uupload.ir/files/dashboard_kqmn.png)
