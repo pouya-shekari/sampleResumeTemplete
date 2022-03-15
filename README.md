@@ -5,8 +5,3 @@ then run the project with with write **npm start** in terminal.
 ## Preview
 
 ![alt text](https://s6.uupload.ir/files/resume1_sbjv.png)
-
-
-responsive mode:
-
-![alt text](https://s6.uupload.ir/files/resume2_mw2c.png)
