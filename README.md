@@ -3,11 +3,10 @@ first install packeges with write **npm install** in terminal.
 then run the project with with write **npm start** in terminal.
 
 ## Preview
-login page:
 
-![alt text](https://s6.uupload.ir/files/login_vks9.png)
+![alt text](https://s6.uupload.ir/files/resume1_sbjv.png)
 
 
-dashboard page:
+responsive mode:
 
-![alt text](https://s6.uupload.ir/files/dashboard_7ymv.png)
+![alt text](https://s6.uupload.ir/files/resume2_mw2c.png)
